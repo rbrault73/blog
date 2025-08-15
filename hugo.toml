@@ -1,0 +1,9 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "My Blog"
+theme = "PaperMod"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    style = "dracula"
