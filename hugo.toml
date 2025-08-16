@@ -1,8 +1,25 @@
-baseURL = "/"
+baseURL = "https://rbrault73.github.io/"
 languageCode = "en-us"
 title = "The Windows Admin Blog"
 theme = "PaperMod"
 
 [params]
+  # Logo settings
   assets.logo = "/images/Robert-TheWindowsAdmin.png"
-  description = "PowerShell, Windows tips, and sysadmin insights"
+  assets.favicon = "/images/Robert-TheWindowsAdmin.png" # optional, shows in browser tab
+
+  # Site tagline / description
+  description = "PowerShell • Windows • Sysadmin insights"
+
+  # Enable showing site title + description in the header
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+
+  # Enable Home Info section (hero section on landing page)
+  homeInfoParams = { 
+    Title = "Welcome to The Windows Admin Blog 👋", 
+    Content = "Practical PowerShell scripts, Windows admin tips, and deep dives into sysadmin work." 
+  }
