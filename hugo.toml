@@ -1,9 +1,8 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "My Blog"
+title = "The Windows Admin Blog"
 theme = "PaperMod"
 
-[markup]
-  [markup.highlight]
-    noClasses = false
-    style = "dracula"
+[params]
+  assets.logo = "/images/Robert-TheWindowsAdmin.png"
+  description = "PowerShell, Windows tips, and sysadmin insights"
