@@ -1,13 +1,9 @@
-baseURL = "https://rbrault73.github.io/"
+baseURL = "http://www.thewindowsadmin.com/"
 languageCode = "en-us"
 title = "The Windows Admin Blog"
 theme = "PaperMod"
 
 [params]
-  # Logo settings
-  assets.logo = "/images/Robert-TheWindowsAdmin.png"
-  assets.favicon = "/images/Robert-TheWindowsAdmin.png" # optional, shows in browser tab
-
   # Site tagline / description
   description = "PowerShell • Windows • Sysadmin insights"
 
@@ -19,7 +15,11 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
 
   # Enable Home Info section (hero section on landing page)
-  homeInfoParams = { 
-    Title = "Welcome to The Windows Admin Blog 👋", 
-    Content = "Practical PowerShell scripts, Windows admin tips, and deep dives into sysadmin work." 
-  }
+
+[params.homeInfoParams]
+  Title = "Welcome to The Windows Admin Blog 👋"
+  Content = "Practical PowerShell scripts, Windows admin tips, and deep dives into sysadmin work."
+
+[params.assets]
+  logo = "/images/Robert-TheWindowsAdmin.png"
+  favicon = "/images/Robert-TheWindowsAdmin.png"
