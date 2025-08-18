@@ -4,17 +4,12 @@ title = "The Windows Admin Blog"
 theme = "PaperMod"
 
 [params]
-  # Site tagline / description
   description = "PowerShell • Windows • Sysadmin insights"
-
-  # Enable showing site title + description in the header
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowReadingTime = true
   ShowShareButtons = true
   ShowCodeCopyButtons = true
-
-  # Enable Home Info section (hero section on landing page)
 
 [params.homeInfoParams]
   Title = "Welcome to The Windows Admin Blog 👋"
@@ -23,3 +18,18 @@ theme = "PaperMod"
 [params.assets]
   logo = "/images/Robert-TheWindowsAdmin.png"
   favicon = "/images/Robert-TheWindowsAdmin.png"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
